@@ -1,0 +1,25 @@
+{
+  "users": [
+    { "id": "maya-sharma", "name": "Maya Sharma", "branch": "CSE", "semester": 3, "bio": "Learning in public and collecting good notes.", "avatar": "" },
+    { "id": "rohan-mehta", "name": "Rohan Mehta", "branch": "ECE", "semester": 5, "bio": "Circuits, coffee, and campus events.", "avatar": "" },
+    { "id": "sana-khan", "name": "Sana Khan", "branch": "BBA", "semester": 1, "bio": "Curious about the people behind products.", "avatar": "" }
+  ],
+  "posts": [
+    { "id": "post-1", "authorId": "maya-sharma", "title": "Operating systems revision map", "subject": "Operating Systems", "branch": "CSE", "semester": 3, "type": "notes", "description": "A compact map of processes, scheduling, and deadlocks before the internal exam.", "link": "https://example.com", "upvotes": 18, "createdAt": "2026-10-20T09:30:00.000Z" },
+    { "id": "post-2", "authorId": "rohan-mehta", "title": "Signals and systems PYQ set", "subject": "Signals", "branch": "ECE", "semester": 5, "type": "PYQ", "description": "Previous-year questions grouped by unit, with the questions that repeat most often.", "link": "", "upvotes": 11, "createdAt": "2026-10-18T14:10:00.000Z" },
+    { "id": "post-3", "authorId": "sana-khan", "title": "How to structure a case study", "subject": "Business Communication", "branch": "BBA", "semester": 1, "type": "video", "description": "A practical guide to moving from observation to a clear recommendation.", "link": "https://example.com", "upvotes": 24, "createdAt": "2026-10-16T11:05:00.000Z" }
+  ],
+  "events": [
+    { "id": "event-1", "title": "Open Source Saturday", "club": "GDG On Campus", "date": "2026-10-24T11:00:00.000Z", "venue": "Innovation Lab", "description": "A friendly working session for first PRs, issue triage, and project setup.", "category": "Workshop", "rsvps": 34 },
+    { "id": "event-2", "title": "Designing Your First Product", "club": "Bennett Product Club", "date": "2026-10-28T16:00:00.000Z", "venue": "Seminar Hall 2", "description": "A conversation about finding a real user problem and testing a small solution.", "category": "Talk", "rsvps": 19 },
+    { "id": "event-3", "title": "Hacktoberfest Showcase", "club": "GDG On Campus", "date": "2026-10-31T15:00:00.000Z", "venue": "Main Auditorium", "description": "Students share what they built, learned, and shipped during the month.", "category": "Community", "rsvps": 61 }
+  ],
+  "help": [
+    { "id": "help-1", "authorId": "rohan-mehta", "title": "Why does my binary search fail on duplicates?", "description": "The result is correct for unique values but skips the first matching index when values repeat.", "subject": "Data Structures", "tags": ["arrays", "debugging"], "solved": false, "replies": 3 },
+    { "id": "help-2", "authorId": "sana-khan", "title": "Good resources for break-even analysis?", "description": "Looking for a simple explanation and a few practice problems before Friday.", "subject": "Accounting", "tags": ["practice", "basics"], "solved": false, "replies": 1 }
+  ],
+  "chat": [
+    { "id": "chat-1", "authorId": "maya-sharma", "message": "What is everyone working on for the showcase?", "createdAt": "2026-10-23T08:25:00.000Z" },
+    { "id": "chat-2", "authorId": "rohan-mehta", "message": "I am polishing the README and testing the setup on a fresh clone.", "createdAt": "2026-10-23T08:31:00.000Z" }
+  ]
+}

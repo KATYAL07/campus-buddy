@@ -1,0 +1,7 @@
+[
+  { "name": "Academic departments", "detail": "Replace with the official department office contacts.", "phone": "PLACEHOLDER", "email": "replace@example.edu" },
+  { "name": "Student helpdesk", "detail": "Replace with the current student support desk details.", "phone": "PLACEHOLDER", "email": "replace@example.edu" },
+  { "name": "Hostel office", "detail": "Replace with the official hostel office details.", "phone": "PLACEHOLDER", "email": "replace@example.edu" },
+  { "name": "Library", "detail": "Replace with the library circulation desk details.", "phone": "PLACEHOLDER", "email": "replace@example.edu" },
+  { "name": "Campus security", "detail": "Replace with the verified campus emergency contact.", "phone": "PLACEHOLDER", "email": "replace@example.edu" }
+]
