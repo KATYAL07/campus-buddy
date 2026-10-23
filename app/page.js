@@ -4,9 +4,9 @@ import { getEvents, getHelpRequests, getPosts, getUsers } from '@/lib/db';
 export default function Home() {
   const posts = getPosts(); const events = getEvents(); const help = getHelpRequests(); const users = getUsers();
   return <main>
-    <span className="eyebrow">GDG On Campus · Bennett University</span>
+    <span className="eyebrow">GDG Bennett On Campus · Bennett University</span>
     <h1 className="page-title">Your campus,<br /><span style={{ color: 'var(--red)' }}>in one place.</span></h1>
-    <p className="lede">Find useful study material, ask better questions, show up to events, and keep the campus conversation moving.</p>
+    <p className="lede">A private student hub for Bennett University students to find useful study material, ask better questions, attend GDG Bennett On Campus events, and keep the campus conversation moving.</p>
     <div style={{ marginTop: 26, display: 'flex', gap: 10, flexWrap: 'wrap' }}><Link className="button accent" href="/feed">Explore the feed</Link><Link className="button secondary" href="/events">See what is next</Link></div>
     <div className="grid" style={{ marginTop: 54 }}><div className="stat"><strong>{posts.length}</strong><span className="meta">study resources</span></div><div className="stat" style={{ borderColor: 'var(--green)' }}><strong>{events.length}</strong><span className="meta">upcoming events</span></div><div className="stat" style={{ borderColor: 'var(--blue)' }}><strong>{users.length}</strong><span className="meta">demo students</span></div></div>
     <div className="section-head"><h2>Make progress together</h2><Link className="meta" href="/help">Browse all help requests →</Link></div>

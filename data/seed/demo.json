@@ -10,9 +10,9 @@
     { "id": "post-3", "authorId": "sana-khan", "title": "How to structure a case study", "subject": "Business Communication", "branch": "BBA", "semester": 1, "type": "video", "description": "A practical guide to moving from observation to a clear recommendation.", "link": "https://example.com", "upvotes": 24, "createdAt": "2026-10-16T11:05:00.000Z" }
   ],
   "events": [
-    { "id": "event-1", "title": "Open Source Saturday", "club": "GDG On Campus", "date": "2026-10-24T11:00:00.000Z", "venue": "Innovation Lab", "description": "A friendly working session for first PRs, issue triage, and project setup.", "category": "Workshop", "rsvps": 34 },
+    { "id": "event-1", "title": "GDG Bennett On Campus: Open Source Saturday", "club": "GDG Bennett On Campus", "date": "2026-10-24T11:00:00.000Z", "venue": "Innovation Lab", "description": "A Bennett University student event for first PRs, issue triage, and project setup.", "category": "GDG Bennett On Campus", "rsvps": 34 },
     { "id": "event-2", "title": "Designing Your First Product", "club": "Bennett Product Club", "date": "2026-10-28T16:00:00.000Z", "venue": "Seminar Hall 2", "description": "A conversation about finding a real user problem and testing a small solution.", "category": "Talk", "rsvps": 19 },
-    { "id": "event-3", "title": "Hacktoberfest Showcase", "club": "GDG On Campus", "date": "2026-10-31T15:00:00.000Z", "venue": "Main Auditorium", "description": "Students share what they built, learned, and shipped during the month.", "category": "Community", "rsvps": 61 }
+    { "id": "event-3", "title": "GDG Bennett On Campus: Hacktoberfest Showcase", "club": "GDG Bennett On Campus", "date": "2026-10-31T15:00:00.000Z", "venue": "Main Auditorium", "description": "Bennett University students share what they built, learned, and shipped during the month.", "category": "GDG Bennett On Campus", "rsvps": 61 }
   ],
   "help": [
     { "id": "help-1", "authorId": "rohan-mehta", "title": "Why does my binary search fail on duplicates?", "description": "The result is correct for unique values but skips the first matching index when values repeat.", "subject": "Data Structures", "tags": ["arrays", "debugging"], "solved": false, "replies": 3 },

@@ -1,6 +1,6 @@
 # Organizer guide
 
-This guide assumes Arnav Katyal is the organizer for GDG On Campus at Bennett University. Menu names can change in Supabase, Google Cloud, Vercel, and GitHub. Look for the same purpose if a label has moved.
+This guide assumes Arnav Katyal is the organizer for the GDG Bennett On Campus event at Bennett University. Campus Buddy is restricted to current Bennett University students. Menu names can change in Supabase, Google Cloud, Vercel, and GitHub. Look for the same purpose if a label has moved.
 
 ## 1. Create Supabase project
 
@@ -30,7 +30,7 @@ This guide assumes Arnav Katyal is the organizer for GDG On Campus at Bennett Un
 
 1. Open vercel.com, click Add New Project, and import the GitHub repository.
 2. Keep the detected Next.js settings.
-3. Add environment variables for Production only: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `ADMIN_EMAILS`, and optional `ALLOWED_EMAIL_DOMAIN`.
+3. Add environment variables for Production only: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `ADMIN_EMAILS`, and `ALLOWED_EMAIL_DOMAIN=bennett.edu.in`.
 4. Do not add production secrets to Preview. Preview deployments should remain in demo mode.
 5. Deploy, copy the production URL into Supabase and Google settings, then redeploy if needed.
 
@@ -44,7 +44,7 @@ In GitHub: Settings, Branches, Add branch ruleset or branch protection rule, tar
 
 ## 7. Hacktoberfest checklist
 
-Confirm the repository topic. Verify this year's official rules on the Hacktoberfest site yourself before the event. Label accepted PRs `hacktoberfest-accepted`, review promptly, merge promptly when ready, and mark spam submissions.
+Confirm the repository topic. Verify this year's official rules on the Hacktoberfest site yourself before the event. Make it clear that the GDG Bennett On Campus event is for Bennett University students only. Label accepted PRs `hacktoberfest-accepted`, review promptly, merge promptly when ready, and mark spam submissions from people outside the campus eligibility rule.
 
 ## 8. Reviewer roster
 

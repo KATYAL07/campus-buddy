@@ -1,6 +1,8 @@
 # Campus Buddy
 
-Campus Buddy is a student-built hub for study resources, campus events, questions, useful contacts, and one shared text chat. It is designed for GDG On Campus at Bennett University and runs in demo mode without secrets.
+Campus Buddy is a student-built hub for study resources, campus events, questions, useful contacts, and one shared text chat. It is a private community for current Bennett University students, organized for the GDG Bennett On Campus event.
+
+Only approved Bennett University students may sign in, contribute, comment, or report content. The public repository is visible for transparency, but app participation is not open to students from other institutions.
 
 ## Quick start
 

@@ -11,6 +11,6 @@ export default function Shell({ children }) {
       </nav>
     </div></header>
     {children}
-    <footer className="footer"><div className="footer-inner"><span>Built for students at Bennett University</span><Link href="/privacy">Privacy policy</Link></div></footer>
+    <footer className="footer"><div className="footer-inner"><span>For Bennett University students · GDG Bennett On Campus</span><Link href="/privacy">Privacy policy</Link></div></footer>
   </div>;
 }
